@@ -6,19 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instalação Bootstrap</title>
+    <!--CSS-->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css">
+    <style>
+        body {
+            background: linear-gradient(#666, #777);
+            min-height: 100vh;
+        }
+        div.grid {
+            background: #ffd1c2;
+            border: 2px solid #f16234;
+            height: 50px;
+        }
+        div.grids {
+            background: #444;
+            border: 2px solid #fff;
+            height: 50px;
+        }
+    </style>
+    <!--End CSS-->
 </head>
 
 <body>
+    <!--Aula GRID-->
+    <div class="container">
+        <!--Container que possui uma margem!-->
+        <div class="row">
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+        </div>
+    </div>
+    </div>
 
-    
+    <div class="container-fluid">
+        <!--Esse container usa 100% do width da page-->
+        <div class="row">
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+            <div class="col grid"></div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-12 grid"></div>
+            <div class="col-11 grid"></div>
+            <div class="col-1 grid"></div>
 
+            <div class="col-sm-1 col-md-1 grids"></div>
+            <div class="col-md-5 grid"></div>
+            <div class="col-xl-4 grids"></div>
+            <div class="col-2 grid"></div>
+        </div>
+    </div>
+    <!--End Aula GRID-->
 
-
+    <!--Javascript-->
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
+    <!--End Javascript-->
 </body>
 
 </html>
